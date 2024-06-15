@@ -2,7 +2,8 @@ from typing import List
 import streamlit as st
 from arxiv_miner.config import Config
 import dateparser
-from streamlit.cli import main
+# from streamlit.cli import main
+from streamlit.web.cli import main
 import datetime
 from functools import wraps
 import arxiv_miner
