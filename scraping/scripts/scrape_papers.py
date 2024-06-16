@@ -27,7 +27,7 @@ DEFAULT_START_DATE = datetime.datetime.now().strftime(ScrapingEngine.date_format
 DEFAULT_END_DATE = (datetime.datetime.now() - datetime.timedelta(days=1)).strftime(ScrapingEngine.date_format)
 DEFAUL_TIMEOUT_PER_DAILY_SCRAPE = 1000 # In Seconds
 DEFAULT_TIMEOUT_PER_DATE_RANGE_SCRAPE = 5
-DEFAULT_THREADMODE = False
+DEFAULT_THREADMODE = True # This doesn't do anything?
 
 CLASS_STR = '\n'.join(['\t'+c['name']+' : '+c['code']+'\n' for c in CLASSES])
 APP_NAME = 'ArXiv-Scraper'
