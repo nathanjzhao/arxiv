@@ -80,4 +80,7 @@ def harvest(max_chunks=1,download_rootpath=DEFAULT_DOWNLOAD_PATH,type=int,sample
         logger.info(f'Save {len(download_path_tuples)} Documents TO S3')
 
 if __name__ == "__main__":
+    from multiprocessing import set_start_method
+    set_start_method("fork")
+    
     harvest()

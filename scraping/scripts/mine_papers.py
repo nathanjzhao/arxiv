@@ -69,5 +69,8 @@ def start_miner(ctx, # click context object: populated from db_cli
 
 
 if __name__ == "__main__":
+    from multiprocessing import set_start_method
+    set_start_method("fork")
+    
     db_cli()
     # run_wrapped_cli(db_cli,app_name=APP_NAME)

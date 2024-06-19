@@ -105,5 +105,8 @@ def daily_harvest(ctx, # click context
     harvesting_process.join()
 
 if __name__ =='__main__':
+    from multiprocessing import set_start_method
+    set_start_method("fork")
+    
     db_cli.help = SCRAPING_HELP
     db_cli()

@@ -384,5 +384,8 @@ def text_search_dashboard(use_defaults,config_path,host,port,app_name=DEFAULT_AP
     DataView(database_client)
     
 if __name__=="__main__":
+    from multiprocessing import set_start_method
+    set_start_method("fork")
+    
     # text_search_dashboard = wrap_db(text_search_dashboard,main)
     text_search_dashboard(False,config,None,None)
