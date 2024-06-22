@@ -22,6 +22,5 @@ cd elasticsearch-7.8.1/
 
 Then, `./bin/elasticsearch`
 
-Me when `streamlit`, `plotly`, etc. packages unspecified
-
-"elasticsearch" is an item that can run in the background. You can manage this in Login Items Settings.
+# Getting data from port
+`curl -X GET "localhost:9200/arxiv_papers/_search?pretty" > output.json`

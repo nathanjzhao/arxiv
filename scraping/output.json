@@ -1,0 +1,356 @@
+{
+  "took" : 166,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 2595,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "arxiv_papers",
+        "_type" : "_doc",
+        "_id" : "2305.00040",
+        "_score" : 1.0,
+        "_source" : {
+          "identity" : {
+            "identity" : "2305.00040",
+            "url" : "https://arxiv.org/abs/2305.00040",
+            "title" : "Fair Distribution of Delivery Orders",
+            "abstract" : "We initiate the study of fair distribution of delivery tasks among a set of\nagents wherein delivery jobs are placed along the vertices of a graph. Our goal\nis to fairly distribute delivery costs (modeled as a submodular function) among\na fixed set of agents while satisfying some desirable notions of economic\nefficiency. We adopt well-established fairness concepts -- such as\nenvy-freeness up to one item (EF1) and minimax share (MMS) -- to our setting\nand show that fairness is often incompatible with the efficiency notion of\nsocial optimality. We then characterize instances that admit fair and socially\noptimal solutions by exploiting graph structures. We further show that\nachieving fairness along with Pareto optimality is computationally intractable.\nWe complement this by designing an XP algorithm (parameterized by the number of\nagents) for finding MMS and Pareto optimal solutions on every tree instance,\nand show that the same algorithm can be modified to find efficient solutions\nalong with EF1, when such solutions exist. The latter crucially relies on an\nintriguing result that in our setting EF1 and Pareto optimality jointly imply\nMMS. We conclude by theoretically and experimentally analyzing the price of\nfairness.",
+            "categories" : [
+              "cs.GT"
+            ],
+            "published" : "2023-04-28",
+            "updated" : "2023-04-28",
+            "authors" : [
+              "Hadi Hosseini",
+              "Shivika Narang",
+              "Tomasz Wąs"
+            ],
+            "affiliation" : [ ],
+            "version" : null,
+            "journal_reference" : "",
+            "created_on" : "2024-06-19T12:12:36.740574"
+          },
+          "paper_processing_meta" : null,
+          "latex_parsing_result" : null,
+          "latex_parsed_document" : null,
+          "created_on" : "2024-06-19T12:12:36.742435"
+        }
+      },
+      {
+        "_index" : "arxiv_papers",
+        "_type" : "_doc",
+        "_id" : "2305.00702",
+        "_score" : 1.0,
+        "_source" : {
+          "identity" : {
+            "identity" : "2305.00702",
+            "url" : "https://arxiv.org/abs/2305.00702",
+            "title" : "Arithmetic of D-Algebraic Functions",
+            "abstract" : "We are concerned with the arithmetic of solutions to ordinary or partial\nnonlinear differential equations which are algebraic in the indeterminates and\ntheir derivatives. We call these solutions D-algebraic functions, and their\nequations are algebraic (ordinary or partial) differential equations (ADEs).\nThe general purpose is to find ADEs whose solutions contain specified rational\nexpressions of solutions to given ADEs. For univariate D-algebraic functions,\nwe show how to derive an ADE of smallest possible order. In the multivariate\ncase, we introduce a general algorithm for these computations and derive\nconclusions on the order bound of the resulting algebraic PDE. Using our\naccompanying Maple software, we discuss applications in physics, statistics,\nand symbolic integration.",
+            "categories" : [
+              "cs.SC",
+              "math.AC"
+            ],
+            "published" : "2023-05-01",
+            "updated" : "2023-05-01",
+            "authors" : [
+              "Bertrand Teguia Tabuguia"
+            ],
+            "affiliation" : [ ],
+            "version" : null,
+            "journal_reference" : "",
+            "created_on" : "2024-06-19T12:12:36.803967"
+          },
+          "paper_processing_meta" : null,
+          "latex_parsing_result" : null,
+          "latex_parsed_document" : null,
+          "created_on" : "2024-06-19T12:12:36.805833"
+        }
+      },
+      {
+        "_index" : "arxiv_papers",
+        "_type" : "_doc",
+        "_id" : "2305.01475",
+        "_score" : 1.0,
+        "_source" : {
+          "identity" : {
+            "identity" : "2305.01475",
+            "url" : "https://arxiv.org/abs/2305.01475",
+            "title" : "Cancer-inspired Genomics Mapper Model for the Generation of Synthetic\n  DNA Sequences with Desired Genomics Signatures",
+            "abstract" : "Genome data are crucial in modern medicine, offering significant potential\nfor diagnosis and treatment. Thanks to technological advancements, many\nmillions of healthy and diseased genomes have already been sequenced; however,\nobtaining the most suitable data for a specific study, and specifically for\nvalidation studies, remains challenging with respect to scale and access.\nTherefore, in silico genomics sequence generators have been proposed as a\npossible solution. However, the current generators produce inferior data using\nmostly shallow (stochastic) connections, detected with limited computational\ncomplexity in the training data. This means they do not take the appropriate\nbiological relations and constraints, that originally caused the observed\nconnections, into consideration. To address this issue, we propose\ncancer-inspired genomics mapper model (CGMM), that combines genetic algorithm\n(GA) and deep learning (DL) methods to tackle this challenge. CGMM mimics\nprocesses that generate genetic variations and mutations to transform readily\navailable control genomes into genomes with the desired phenotypes. We\ndemonstrate that CGMM can generate synthetic genomes of selected phenotypes\nsuch as ancestry and cancer that are indistinguishable from real genomes of\nsuch phenotypes, based on unsupervised clustering. Our results show that CGMM\noutperforms four current state-of-the-art genomics generators on two different\ntasks, suggesting that CGMM will be suitable for a wide range of purposes in\ngenomic medicine, especially for much-needed validation studies.",
+            "categories" : [
+              "q-bio.GN",
+              "cs.LG",
+              "cs.NE"
+            ],
+            "published" : "2023-05-01",
+            "updated" : "2023-05-01",
+            "authors" : [
+              "Teddy Lazebnik",
+              "Liron Simon-Keren"
+            ],
+            "affiliation" : [ ],
+            "version" : null,
+            "journal_reference" : "",
+            "created_on" : "2024-06-19T12:12:36.870957"
+          },
+          "paper_processing_meta" : null,
+          "latex_parsing_result" : null,
+          "latex_parsed_document" : null,
+          "created_on" : "2024-06-19T12:12:36.872838"
+        }
+      },
+      {
+        "_index" : "arxiv_papers",
+        "_type" : "_doc",
+        "_id" : "2305.01552",
+        "_score" : 1.0,
+        "_source" : {
+          "identity" : {
+            "identity" : "2305.01552",
+            "url" : "https://arxiv.org/abs/2305.01552",
+            "title" : "The Topology of a Family Tree Graph and Its Members' Satisfaction with\n  One Another: A Machine Learning Approach",
+            "abstract" : "Family members' satisfaction with one another is central to creating healthy\nand supportive family environments. In this work, we propose and implement a\nnovel computational technique aimed at exploring the possible relationship\nbetween the topology of a given family tree graph and its members' satisfaction\nwith one another. Through an extensive empirical evaluation ($N=486$ families),\nwe show that the proposed technique brings about highly accurate results in\npredicting family members' satisfaction with one another based solely on the\nfamily graph's topology. Furthermore, the results indicate that our technique\nfavorably compares to baseline regression models which rely on established\nfeatures associated with family members' satisfaction with one another in prior\nliterature.",
+            "categories" : [
+              "physics.soc-ph",
+              "cs.CY",
+              "cs.IR",
+              "cs.SI"
+            ],
+            "published" : "2023-05-02",
+            "updated" : "2023-05-02",
+            "authors" : [
+              "Teddy Lazebnik",
+              "Amit Yaniv-Rosenfeld"
+            ],
+            "affiliation" : [ ],
+            "version" : null,
+            "journal_reference" : "",
+            "created_on" : "2024-06-19T12:12:36.918718"
+          },
+          "paper_processing_meta" : null,
+          "latex_parsing_result" : null,
+          "latex_parsed_document" : null,
+          "created_on" : "2024-06-19T12:12:36.920483"
+        }
+      },
+      {
+        "_index" : "arxiv_papers",
+        "_type" : "_doc",
+        "_id" : "2305.02012",
+        "_score" : 1.0,
+        "_source" : {
+          "identity" : {
+            "identity" : "2305.02012",
+            "url" : "https://arxiv.org/abs/2305.02012",
+            "title" : "A Perspective on Explainable Artificial Intelligence Methods: SHAP and\n  LIME",
+            "abstract" : "eXplainable artificial intelligence (XAI) methods have emerged to convert the\nblack box of machine learning (ML) models into a more digestible form. These\nmethods help to communicate how the model works with the aim of making ML\nmodels more transparent and increasing the trust of end-users into their\noutput. SHapley Additive exPlanations (SHAP) and Local Interpretable Model\nAgnostic Explanation (LIME) are two widely used XAI methods, particularly with\ntabular data. In this perspective piece, we discuss the way the explainability\nmetrics of these two methods are generated and propose a framework for\ninterpretation of their outputs, highlighting their weaknesses and strengths.\nSpecifically, we discuss their outcomes in terms of model-dependency and in the\npresence of collinearity among the features, relying on a case study from the\nbiomedical domain (classification of individuals with or without myocardial\ninfarction). The results indicate that SHAP and LIME are highly affected by the\nadopted ML model and feature collinearity, raising a note of caution on their\nusage and interpretation.",
+            "categories" : [
+              "stat.ML",
+              "cs.AI",
+              "cs.LG"
+            ],
+            "published" : "2023-05-03",
+            "updated" : "2023-05-03",
+            "authors" : [
+              "Ahmed Salih",
+              "Zahra Raisi-Estabragh",
+              "Ilaria Boscolo Galazzo",
+              "Petia Radeva",
+              "Steffen E. Petersen",
+              "Gloria Menegaz",
+              "Karim Lekadir"
+            ],
+            "affiliation" : [ ],
+            "version" : null,
+            "journal_reference" : "",
+            "created_on" : "2024-06-19T12:12:36.961100"
+          },
+          "paper_processing_meta" : null,
+          "latex_parsing_result" : null,
+          "latex_parsed_document" : null,
+          "created_on" : "2024-06-19T12:12:36.962892"
+        }
+      },
+      {
+        "_index" : "arxiv_papers",
+        "_type" : "_doc",
+        "_id" : "2305.03518",
+        "_score" : 1.0,
+        "_source" : {
+          "identity" : {
+            "identity" : "2305.03518",
+            "url" : "https://arxiv.org/abs/2305.03518",
+            "title" : "Black-box Prompt Tuning with Subspace Learning",
+            "abstract" : "Black-box prompt tuning employs derivative-free optimization algorithms to\nlearn prompts within low-dimensional subspaces rather than back-propagating\nthrough the network of Large Language Models (LLMs). Recent studies reveal that\nblack-box prompt tuning lacks versatility across tasks and LLMs, which we\nbelieve is related to the suboptimal choice of subspaces. In this paper, we\nintroduce Black-box prompt tuning with Subspace Learning (BSL) to enhance the\nversatility of black-box prompt tuning. Based on the assumption that nearly\noptimal prompts for similar tasks reside in a common subspace, we propose\nidentifying such subspaces through meta-learning on a collection of similar\nsource tasks. Consequently, for a target task that shares similarities with the\nsource tasks, we expect that optimizing within the identified subspace can\nyield a prompt that performs well on the target task. Experimental results\nconfirm that our BSL framework consistently achieves competitive performance\nacross various downstream tasks and LLMs.",
+            "categories" : [
+              "cs.CL",
+              "cs.AI"
+            ],
+            "published" : "2023-05-03",
+            "updated" : "2023-05-03",
+            "authors" : [
+              "Yuanhang Zheng",
+              "Zhixing Tan",
+              "Peng Li",
+              "Yang Liu"
+            ],
+            "affiliation" : [ ],
+            "version" : null,
+            "journal_reference" : "",
+            "created_on" : "2024-06-19T12:12:37.035109"
+          },
+          "paper_processing_meta" : null,
+          "latex_parsing_result" : null,
+          "latex_parsed_document" : null,
+          "created_on" : "2024-06-19T12:12:37.037016"
+        }
+      },
+      {
+        "_index" : "arxiv_papers",
+        "_type" : "_doc",
+        "_id" : "2305.03997",
+        "_score" : 1.0,
+        "_source" : {
+          "identity" : {
+            "identity" : "2305.03997",
+            "url" : "https://arxiv.org/abs/2305.03997",
+            "title" : "Dual Degradation Representation for Joint Deraining and Low-Light\n  Enhancement in the Dark",
+            "abstract" : "Rain in the dark poses a significant challenge to deploying real-world\napplications such as autonomous driving, surveillance systems, and night\nphotography. Existing low-light enhancement or deraining methods struggle to\nbrighten low-light conditions and remove rain simultaneously. Additionally,\ncascade approaches like ``deraining followed by low-light enhancement'' or the\nreverse often result in problematic rain patterns or overly blurred and\noverexposed images. To address these challenges, we introduce an end-to-end\nmodel called L$^{2}$RIRNet, designed to manage both low-light enhancement and\nderaining in real-world settings. Our model features two main components: a\nDual Degradation Representation Network (DDR-Net) and a Restoration Network.\nThe DDR-Net independently learns degradation representations for luminance\neffects in dark areas and rain patterns in light areas, employing dual\ndegradation loss to guide the training process. The Restoration Network\nrestores the degraded image using a Fourier Detail Guidance (FDG) module, which\nleverages near-rainless detailed images, focusing on texture details in\nfrequency and spatial domains to inform the restoration process. Furthermore,\nwe contribute a dataset containing both synthetic and real-world\nlow-light-rainy images. Extensive experiments demonstrate that our\nL$^{2}$RIRNet performs favorably against existing methods in both synthetic and\ncomplex real-world scenarios. All the code and dataset can be found in\n\\url{https://github.com/linxin0/Low_light_rainy}.",
+            "categories" : [
+              "eess.IV",
+              "cs.CV"
+            ],
+            "published" : "2023-05-06",
+            "updated" : "2023-05-06",
+            "authors" : [
+              "Xin Lin",
+              "Jingtong Yue",
+              "Sixian Ding",
+              "Chao Ren",
+              "Lu Qi",
+              "Ming-Hsuan Yang"
+            ],
+            "affiliation" : [ ],
+            "version" : null,
+            "journal_reference" : "",
+            "created_on" : "2024-06-19T12:12:37.091737"
+          },
+          "paper_processing_meta" : null,
+          "latex_parsing_result" : null,
+          "latex_parsed_document" : null,
+          "created_on" : "2024-06-19T12:12:37.093787"
+        }
+      },
+      {
+        "_index" : "arxiv_papers",
+        "_type" : "_doc",
+        "_id" : "2305.04536",
+        "_score" : 1.0,
+        "_source" : {
+          "identity" : {
+            "identity" : "2305.04536",
+            "url" : "https://arxiv.org/abs/2305.04536",
+            "title" : "LMPT: Prompt Tuning with Class-Specific Embedding Loss for Long-tailed\n  Multi-Label Visual Recognition",
+            "abstract" : "Long-tailed multi-label visual recognition (LTML) task is a highly\nchallenging task due to the label co-occurrence and imbalanced data\ndistribution. In this work, we propose a unified framework for LTML, namely\nprompt tuning with class-specific embedding loss (LMPT), capturing the semantic\nfeature interactions between categories by combining text and image modality\ndata and improving the performance synchronously on both head and tail classes.\nSpecifically, LMPT introduces the embedding loss function with class-aware soft\nmargin and re-weighting to learn class-specific contexts with the benefit of\ntextual descriptions (captions), which could help establish semantic\nrelationships between classes, especially between the head and tail classes.\nFurthermore, taking into account the class imbalance, the distribution-balanced\nloss is adopted as the classification loss function to further improve the\nperformance on the tail classes without compromising head classes. Extensive\nexperiments are conducted on VOC-LT and COCO-LT datasets, which demonstrates\nthat our method significantly surpasses the previous state-of-the-art methods\nand zero-shot CLIP in LTML. Our codes are fully public at\nhttps://github.com/richard-peng-xia/LMPT.",
+            "categories" : [
+              "cs.CV"
+            ],
+            "published" : "2023-05-08",
+            "updated" : "2023-05-08",
+            "authors" : [
+              "Peng Xia",
+              "Di Xu",
+              "Ming Hu",
+              "Lie Ju",
+              "Zongyuan Ge"
+            ],
+            "affiliation" : [ ],
+            "version" : null,
+            "journal_reference" : "",
+            "created_on" : "2024-06-19T12:12:37.143815"
+          },
+          "paper_processing_meta" : null,
+          "latex_parsing_result" : null,
+          "latex_parsed_document" : null,
+          "created_on" : "2024-06-19T12:12:37.145647"
+        }
+      },
+      {
+        "_index" : "arxiv_papers",
+        "_type" : "_doc",
+        "_id" : "2305.05227",
+        "_score" : 1.0,
+        "_source" : {
+          "identity" : {
+            "identity" : "2305.05227",
+            "url" : "https://arxiv.org/abs/2305.05227",
+            "title" : "Privacy in Speech Technology",
+            "abstract" : "Speech technology for communication, accessing information and services has\nrapidly improved in quality. It is convenient and appealing because speech is\nthe primary mode of communication for humans. Such technology however also\npresents proven threats to privacy. Speech is a tool for communication and it\nwill thus inherently contain private information. Importantly, it however also\ncontains a wealth of side information, such as information related to health,\nemotions, affiliations, and relationships, all of which are private. Exposing\nsuch private information can lead to serious threats such as price gouging,\nharassment, extortion, and stalking. This paper is a tutorial on privacy issues\nrelated to speech technology, modeling their threats, approaches for protecting\nusers' privacy, measuring the performance of privacy-protecting methods,\nperception of privacy as well as societal and legal consequences. In addition\nto a tutorial overview, it also presents lines for further development where\nimprovements are most urgently needed.",
+            "categories" : [
+              "eess.AS",
+              "cs.CR",
+              "cs.SD"
+            ],
+            "published" : "2023-05-09",
+            "updated" : "2023-05-09",
+            "authors" : [
+              "Tom Bäckström"
+            ],
+            "affiliation" : [ ],
+            "version" : null,
+            "journal_reference" : "",
+            "created_on" : "2024-06-19T12:12:37.199882"
+          },
+          "paper_processing_meta" : null,
+          "latex_parsing_result" : null,
+          "latex_parsed_document" : null,
+          "created_on" : "2024-06-19T12:12:37.201745"
+        }
+      },
+      {
+        "_index" : "arxiv_papers",
+        "_type" : "_doc",
+        "_id" : "2305.05660",
+        "_score" : 1.0,
+        "_source" : {
+          "identity" : {
+            "identity" : "2305.05660",
+            "url" : "https://arxiv.org/abs/2305.05660",
+            "title" : "Stable nearly self-similar blowup of the 2D Boussinesq and 3D Euler\n  equations with smooth data II: Rigorous Numerics",
+            "abstract" : "This is Part II of our paper in which we prove finite time blowup of the 2D\nBoussinesq and 3D axisymmetric Euler equations with smooth initial data of\nfinite energy and boundary. In Part I of our paper [ChenHou2023a], we establish\nan analytic framework to prove stability of an approximate self-similar blowup\nprofile by a combination of a weighted $L^\\infty$ norm and a weighted $C^{1/2}$\nnorm. Under the assumption that the stability constants, which depend on the\napproximate steady state, satisfy certain inequalities stated in our stability\nlemma, we prove stable nearly self-similar blowup of the 2D Boussinesq and 3D\nEuler equations with smooth initial data and boundary. In Part II of our paper,\nwe provide sharp stability estimates of the linearized operator by constructing\nspace-time solutions with rigorous error control. We also obtain sharp\nestimates of the velocity in the regular case using computer assistance. These\nresults enable us to verify that the stability constants obtained in Part I\n[ChenHou2023a] indeed satisfy the inequalities in our stability lemma. This\ncompletes the analysis of the finite time singularity of the axisymmetric Euler\nequations with smooth initial data and boundary.",
+            "categories" : [
+              "math.AP",
+              "cs.NA",
+              "math.NA"
+            ],
+            "published" : "2023-05-09",
+            "updated" : "2023-05-09",
+            "authors" : [
+              "Jiajie Chen",
+              "Thomas Y. Hou"
+            ],
+            "affiliation" : [ ],
+            "version" : null,
+            "journal_reference" : "",
+            "created_on" : "2024-06-19T12:12:37.245381"
+          },
+          "paper_processing_meta" : null,
+          "latex_parsing_result" : null,
+          "latex_parsed_document" : null,
+          "created_on" : "2024-06-19T12:12:37.247186"
+        }
+      }
+    ]
+  }
+}
